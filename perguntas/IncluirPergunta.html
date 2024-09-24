@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Incluir Pergunta</title>
+</head>
+<body>
+<h1>Novo Usuário</h1>
+<form action="IncluirPergunta.php" method="POST">
+    Título da Pergunta: <input type="text" name="titulo" required>
+    <br><br>
+    Resposta A: <input type="text" name="resp1" required> 
+    <br><br>
+    Resposta B: <input type="text" name="resp2" required> 
+    <br><br>
+    Resposta C: <input type="text" name="resp3" required> 
+    <br><br>
+    Resposta D: <input type="text" name="resp4" required>
+<br><br>
+    Resposta Correta: <select required name="respCerta">
+        <option>a</option>
+        <option>b</option>
+        <option>c</option>
+        <option>d</option>
+    </select>
+    
+    <br><br>
+    <input type="submit" value="Criar Pergunta">
+</form>
+<br>
+</body>
+</html>
